@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+
+    & .content {
+        width: 456px;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    & .title {
+        display: flex;
+        flex-direction: column;
+        gap: 70px;
+    }
+}
